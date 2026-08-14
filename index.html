@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main class="weather-app">
+
+        <div class="weather-card">
+
+            <h1>Weather</h1>
+            <p class="subtitle">Check the current weather in a city</p>
+
+            <div class="search-area">
+                <select id="city-select">
+                    <option value=""></option>
+                    <option value="Karachi">Karachi</option>
+                    <option value="Lahore">Lahore</option>
+                    <option value="Peshawar">Peshawar</option>
+                    <option value="Multan">Multan</option>
+                    <option value="Quetta">Quetta</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                </select>
+
+                <button id="get-weather-btn">Get Weather</button>
+            </div>
+
+            <section class="weather-info">
+
+                <div class="location-section">
+                    <h2 id="location">N/A</h2>
+                    <p id="weather-main">N/A</p>
+                </div>
+
+                <div class="weather-icon-container">
+                    <img
+                        id="weather-icon"
+                        src=""
+                        alt="Weather icon"
+                    >
+                </div>
+
+                <div class="temperature">
+                    <span id="main-temperature">N/A</span>
+                    <span>°C</span>
+                </div>
+
+                <div class="weather-details">
+
+                    <div class="detail">
+                        <span class="label">Feels Like</span>
+                        <span id="feels-like">N/A</span>
+                    </div>
+
+                    <div class="detail">
+                        <span class="label">Humidity</span>
+                        <span id="humidity">N/A</span>
+                    </div>
+
+                    <div class="detail">
+                        <span class="label">Wind</span>
+                        <span id="wind">N/A</span>
+                    </div>
+
+                    <div class="detail">
+                        <span class="label">Wind Gust</span>
+                        <span id="wind-gust">N/A</span>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
