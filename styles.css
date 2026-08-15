@@ -42,7 +42,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-/* Search */
+
 
 .search-area {
     display: flex;
@@ -90,7 +90,6 @@ button:hover {
     transform: translateY(-1px);
 }
 
-/* Weather */
 
 .weather-info {
     margin-top: 35px;
@@ -108,7 +107,6 @@ button:hover {
     text-transform: capitalize;
 }
 
-/* Weather Icon */
 
 .weather-icon-container {
     height: 120px;
@@ -126,7 +124,6 @@ button:hover {
     object-fit: contain;
 }
 
-/* Temperature */
 
 .temperature {
     font-size: 3.5rem;
@@ -136,7 +133,6 @@ button:hover {
     margin-bottom: 30px;
 }
 
-/* Details */
 
 .weather-details {
     display: grid;
@@ -167,7 +163,6 @@ button:hover {
     font-weight: bold;
 }
 
-/* Mobile */
 
 @media (max-width: 500px) {
 
